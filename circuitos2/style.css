@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: borderbox;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://wallpaperaccess.com/full/8385556.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.arrow {
+  position: absolute;
+  max-width: 30px;
+  max-height: auto;
+  top: 10px;
+  left: 15px;
+  cursor: pointer;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  max-width: 100px;
+  height: auto;
+  padding: 50px
+}
+
+header {
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  background-color: red;
+  color: white;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: crimson;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.wrapper {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popup {
+  font-family: arial;
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  margin: 10% auto;
+  padding: 20px;
+  background: white;
+  position: relative;
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imagem {
+  display: block;
+  width: 300px;
+  height: auto;
+  ;
+  border-radius: 8%;
+  padding: 1px;
+  transition: transform 0.6s ease;
+}
+
+.content {
+  text-align: center;
+  font-family: arial;
+}
+
+.wrapper2 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper3 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper4 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper5 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper6 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper7 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper8 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper9 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper10 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper11 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper12 {
+  display: none;
+  background: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.seta {
+
+  display: block;
+  margin: auto;
+  max-width: 100px;
+  height: auto;
+  padding: 50px;
+  cursor: pointer;
+}
+
+.circuitos {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  padding: 20px; 
+}
+
+.circuitos a {
+  color: black;
+}
+
+.content h2 {
+  color: black; 
+}

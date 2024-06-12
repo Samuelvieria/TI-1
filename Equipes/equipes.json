@@ -1,0 +1,205 @@
+{
+    "RedBullRacing": {
+      "title": "RedBull Racing",
+      "logo": "red-bull-racing-logo-1.jpg",
+      "description": "A Red Bull entrou na Fórmula 1 em 2005 e rapidamente se tornou uma equipe de destaque...",
+      "drivers": [
+        {
+          "name": "Max Verstappen",
+          "country": "NED"
+        },
+        {
+          "name": "Sérgio Pérez",
+          "country": "MEX"
+        }
+      ],
+      "country": "Austria",
+      "founder": "Dietrich Mateschitz",
+      "teamPrincipal": "Christian Horner",
+      "constructorTitles": 5
+  },
+
+    "ScuderiaFerrari": {
+      "title": "Scuderia Ferrari",
+      "logo": "logo ferrari1.jpg",
+      "description": "A Ferrari é uma das equipes mais emblemáticas e bem-sucedidas da história da Fórmula 1...",
+      "drivers": [
+        {
+          "name": "Charles Leclerc",
+          "country": "MON"
+        },
+        {
+          "name": "Carlos Sainz",
+          "country": "ESP"
+        }
+      ],
+      "country": "Italy",
+      "founder": "Enzo Ferrari",
+      "teamPrincipal": "Frédéric Vasseur",
+      "constructorTitles": 16
+  },
+
+    "MercedesAMGPetronas": {
+      "title": "Mercedes-AMG Petronas",
+      "logo": "mercedes.avif",
+      "description": "A Mercedes tem uma história de sucesso na Fórmula 1...",
+      "drivers": [
+        {
+          "name": "Lewis Hamilton",
+          "country": "GBR"
+        },
+        {
+          "name": "George Russell",
+          "country": "GBR"
+        }
+      ],
+      "country": "Germany",
+      "founders": ["Karl Benz", "Gottlieb Daimler"],
+      "teamPrincipal": "Toto Wolff",
+      "constructorTitles": 8
+  },
+  
+    "BWTAlpine": {
+      "title": "BWT Alpine",
+      "logo": "alpinelogo.jpeg",
+      "description": "A Alpine é uma equipe relativamente nova na Fórmula 1...",
+      "drivers": [
+        {
+          "name": "Esteban Ocon",
+          "country": "FRA"
+        },
+        {
+          "name": "Pierre Gasly",
+          "country": "FRA"
+        }
+      ],
+      "country": "France",
+      "founder": "Renault",
+      "teamPrincipal": "Laurent Rossi",
+      "constructorTitles": 2
+  },
+
+  "McLaren": {
+    "title": "McLaren",
+    "logo": "mclarenora.jpg",
+    "description": "A McLaren é uma equipe icônica da Fórmula 1...",
+    "drivers": [
+      {
+        "name": "Lando Norris",
+        "country": "GBR"
+      },
+      {
+        "name": "Oscar Piastri",
+        "country": "AUS"
+      }
+    ],
+    "country": "United Kingdom",
+    "founder": "Bruce McLaren",
+    "teamPrincipal": "Zak Brown",
+    "constructorTitles": 8
+  },
+
+  "AlfaRomeoRacing": {
+    "title": "Alfa Romeo Racing",
+    "logo": "alfaromeocop.jpg",
+    "description": "A Alfa Romeo tem uma história rica na Fórmula 1...",
+    "drivers": [
+      {
+        "name": "Valtteri Bottas",
+        "country": "FIN"
+      },
+      {
+        "name": "Guanyu Zhou",
+        "country": "CHI"
+      }
+    ],
+    "country": "Italy",
+    "founder": "Nicola Romeo",
+    "teamPrincipal": "Alessandro Alunni Bravi",
+    "constructorTitles": 0
+  },
+
+  "AstonMartin": {
+    "title": "Aston Martin",
+    "logo": "aston martin.avif",
+    "description": "A Aston Martin tem uma história intermitente na Fórmula 1...",
+    "drivers": [
+      {
+        "name": "Fernando Alonso",
+        "country": "ESP"
+      },
+      {
+        "name": "Lance Stroll",
+        "country": "CAN"
+      }
+    ],
+    "country": "United Kingdom",
+    "founder": "Lawrence Stroll",
+    "teamPrincipal": "Mike Krack",
+    "constructorTitles": 0
+  },
+
+  "Haas": {
+    "title": "HAAS",
+    "logo": "haas.avif",
+    "description": "A Haas F1 Team é uma equipe relativamente nova na Fórmula 1...",
+    "drivers": [
+      {
+        "name": "Kevin Magnussen",
+        "country": "DEN"
+      },
+      {
+        "name": "Nico Hulkenberg",
+        "country": "GER"
+      }
+    ],
+    "country": "United States",
+    "founder": "Gene Haas",
+    "teamPrincipal": "Guenter Steiner",
+    "constructorTitles": 0
+  },
+
+  "AlphaTauri": {
+    "title": "Scuderia AlphaTauri",
+    "logo": "alphatauriaz.png",
+    "description": "A AlphaTauri é uma equipe de Fórmula 1 associada à Red Bull Racing...",
+    "drivers": [
+      {
+        "name": "Yuki Tsunoda",
+        "country": "JAP"
+      },
+      {
+        "name": "Nyck deVries",
+        "country": "HOL"
+      }
+    ],
+    "country": "Italy",
+    "founder": "RedBull Racing",
+    "teamPrincipal": "Franz Tost",
+    "constructorTitles": 0
+  },
+
+  "Williams": {
+    "title": "Williams Racing",
+    "logo": "williams.jpg",
+    "description": "A Williams é uma equipe icônica da Fórmula 1, fundada em 1977 por Frank Williams e Patrick Head...",
+    "drivers": [
+      {
+        "name": "Alexander Albon",
+        "country": "THA"
+      },
+      {
+        "name": "Logan Sargeant",
+        "country": "USA"
+      }
+    ],
+    "country": "United Kingdom",
+    "founders": "Frank Williams e Patrick Head",
+    "teamPrincipal": "James Vowles",
+    "constructorTitles": 9
+  }
+  
+}
+
+
+ 
