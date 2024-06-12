@@ -1,0 +1,114 @@
+.Cabecalho {
+  background-color: #cf0e0e;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+  text-align: center;
+  margin: 0;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  border-radius: 5vh;
+  padding: 1vh;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+header .menu {
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+header .menu li {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+header .menu a {
+  color: white;
+  padding: 8px 12px;
+  border-radius: 3px;
+  transition: 200ms;
+}
+
+header .menu .ativo,
+header .menu a:hover {
+  color: #444;
+  background-color: white;
+}
+
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://wallpaperaccess.com/full/8385556.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 1vh;
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 1vh;
+  color: rgba(255, 255, 255, 0.938);
+}
+
+th {
+  background-color: #37527e;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+tr:nth-child(even) {
+  background-color: #051d46;
+}
+
+tr:nth-child(odd) {
+  background-color: #37527e;
+}
+
+td img {
+  max-width: 100%;
+  max-height: 5vh;
+  object-fit: cover;
+
+}

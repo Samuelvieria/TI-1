@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: black;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      overflow: auto;
+      max-width: 100%;
+      white-space: nowrap;
+    }
+
+    ul li {
+      display: inline-block;
+    }
+
+    ul li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .logo {
+      font-size: 40px;
+    }
+
+    header .menu {
+      width: auto;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 40px;
+    }
+
+    header .menu li {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    header .menu a {
+      color: white;
+      padding: 8px 12px;
+      border-radius: 3px;
+      transition: 200ms;
+    }
+
+    header .menu .ativo,
+    header .menu a:hover {
+      color: #444;
+      background-color: white;
+    }
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Add padding to containers */
+    .container {
+      padding: 16px;
+      background-color: white;
+    }
+
+    /* Full-width input fields */
+    input[type=text],
+    input[type=password] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+
+    input[type=text]:focus,
+    input[type=password]:focus {
+      background-color: #ddd;
+      outline: none;
+    }
+
+    /* Overwrite default styles of hr */
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+
+    /* Set a style for the submit button */
+    .registerbtn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+
+    .registerbtn:hover {
+      opacity: 1;
+    }
+
+    /* Add a blue text color to links */
+    a {
+      color: dodgerblue;
+    }
+
+    /* Set a grey background color and center the text of the "sign in" section */
+    .signin {
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+
+    h1 {
+      text-align: center;
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <a href="../perfil/index.html" class="logo">Profile</a>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../Cadastro/index.html" class="ativo">Cadastro</a></li>
+        <li><a href="../configuraçoes/index.html">Setting</a></li>
+      </ul>
+    </nav>
+  </header>
+  <form action="/action_page.php">
+    <div class="container">
+      <img src="logo.png" alt="Logo" style="width:30%; display: block; margin: 0 auto;">
+      <h1>Speed Fanatic</h1>
+      <p>Preencha os campos para se cadastar e acelerar no mundo da Fórmula 1.</p>
+      <hr>
+
+      <label for="email"><b>Email ou Número de telefone</b></label>
+      <input type="text" placeholder="Adicione Email ou número" name="email" id="email" required>
+
+      <label for="psw"><b>Senha</b></label>
+      <input type="password" placeholder="Senha" name="psw" id="psw" required>
+
+      <label for="name"><b>Nome Completo</b></label>
+      <input type="text" placeholder="Adione seu nome completo" name="name" id="name" required>
+
+      <label for="nick"><b>Nickname</b></label>
+      <input type="text" placeholder="Adicione seu nickname" name="nick" id="nick" required>
+
+      <hr>
+      <p>Ao criar a conta você aceita nossos: <a href="#">Terms & Privacy</a>.</p>
+
+      <button type="submit" class="registerbtn">Registrar</button>
+    </div>
+
+    <div class="container signin">
+      <p>Já tem uma conta? <a href="../login/index.html">Log in</a>.</p>
+    </div>
+  </form>
+
+</body>
+
+</html>
+
+
+desejo colocar uma imagem no topo

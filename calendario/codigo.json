@@ -1,0 +1,120 @@
+{
+    "tabela": [
+      {
+        "data": "05/03",
+        "circuito": "Circuito Internacional do Bahrein (BHR)",
+        "pais": "Bahrein"
+      },
+      {
+        "data": "19/03",
+        "circuito": "O Circuito Corniche de Jeddah (SAU)",
+        "pais": "Arábia Saudita"
+      },
+      {
+        "data": "02/04",
+        "circuito": "Circuito de Albert Park (AUS)",
+        "pais": "Austrália"
+      },
+      {
+        "data": "30/04",
+        "circuito": "Circuito Urbano de Baku (AZE)",
+        "pais": "Azerbaijão"
+      },
+      {
+        "data": "07/05",
+        "circuito": "Autódromo Internacional de Miami (USA)",
+        "pais": "Estados Unidos"
+      },
+      {
+        "data": "21/05",
+        "circuito": "Autódromo Enzo e Dino Ferrari (ITA)",
+        "pais": "Itália"
+      },
+      {
+        "data": "28/05",
+        "circuito": "Circuito de Mônaco (MON)",
+        "pais": "Mônaco"
+      },
+      {
+        "data": "04/06",
+        "circuito": "Circuito da Catalunha (ESP)",
+        "pais": "Espanha"
+      },
+      {
+        "data": "18/06",
+        "circuito": "Circuito Gilles Villeneuve (CAN)",
+        "pais": "Canadá"
+      },
+      {
+        "data": "02/07",
+        "circuito": "Red Bull Ring (AUT)",
+        "pais": "Áustria"
+      },
+      {
+        "data": "09/07",
+        "circuito": "Circuito de Silverstone (GBR)",
+        "pais": "Reino Unido"
+      },
+      {
+        "data": "23/07",
+        "circuito": "Hungaroring (HUN)",
+        "pais": "Hungria"
+      },
+      {
+        "data": "30/07",
+        "circuito": "Circuito de Spa-Francorchamps (BEL)",
+        "pais": "Bélgica"
+      },
+      {
+        "data": "27/08",
+        "circuito": "Circuito de Park Zandvoort (NLD)",
+        "pais": "Holanda"
+      },
+      {
+        "data": "03/09",
+        "circuito": "Circuito de Monza (ITA)",
+        "pais": "Itália"
+      },
+      {
+        "data": "17/09",
+        "circuito": "Circuito Urbano de Marina Bay (SGP)",
+        "pais": "Singapura"
+      },
+      {
+        "data": "24/09",
+        "circuito": "Circuito de Suzuka (JPN)",
+        "pais": "Japão"
+      },
+      {
+        "data": "08/10",
+        "circuito": "Circuito Internacional de Lusail (QAT)",
+        "pais": "Catar"
+      },
+      {
+        "data": "22/10",
+        "circuito": "Circuito das Américas (USA)",
+        "pais": "Estados Unidos"
+      },
+      {
+        "data": "29/10",
+        "circuito": "Autódromo Hermanos Rodríguez (MEX)",
+        "pais": "México"
+      },
+      {
+        "data": "05/11",
+        "circuito": "Autódromo José Carlos Pace (BRA)",
+        "pais": "Brasil"
+      },
+      {
+        "data": "18/11",
+        "circuito": "Circuito de Rua de Las Vegas (USA)",
+        "pais": "Estados Unidos"
+      },
+      {
+        "data": "26/11",
+        "circuito": "Circuito de Yas Marina (ARE)",
+        "pais": "Emirados Árabes Unidos"
+      }
+    ]
+  }
+  
