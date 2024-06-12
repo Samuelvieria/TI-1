@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Perfil do Usuário</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      height: 100%;
+      width: 100%;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      overflow: auto;
+      max-width: 100%;
+      white-space: nowrap;
+    }
+
+    ul li {
+      display: inline-block;
+    }
+
+    ul li a {
+      display: block;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .logo {
+      font-size: 40px;
+    }
+
+    header .menu {
+      width: auto;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 40px;
+    }
+
+    header .menu li {
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    header .menu a {
+      color: white;
+      padding: 8px 12px;
+      border-radius: 3px;
+      transition: 200ms;
+    }
+
+    header .menu .ativo,
+    header .menu a:hover {
+      color: #444;
+      background-color: white;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 20px;
+      margin: 50px auto;
+      max-width: 600px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://wallpaperaccess.com/full/8385556.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100vh;
+    }
+
+    body * {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1,
+    h2 {
+      color: #333;
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .img-top-right {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 500px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #666;
+    }
+
+    table td:first-child {
+      font-weight: bold;
+      color: #333;
+      width: 30%;
+      padding-right: 10px;
+      text-align: right;
+    }
+
+    table td:last-child {
+      padding-left: 10px;
+    }
+
+    .box {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-color: red;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+    .button {
+      background-color: #f2f2f2;
+      margin: 5px;
+      display: inline-block;
+      padding: 20px 30px;
+      background-color: white;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      border: 1px solid black;
+      cursor: pointer;
+      margin-right: 10px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <a href="../perfil/index.html" class="logo">Profile</a>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../perfil/index.html" class="ativo">Profile</a></li>
+        <li><a href="../configuraçoes/index.html">Setting</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <img src="https://via.placeholder.com/150" alt="Foto de Perfil">
+    <a href="../index.html">
+      <img src="logo.png" alt="Imagem no canto superior direito" class="img-top-right">
+    </a>
+    <h1>Nome do Usuário</h1>
+    <div class="box">
+      <table>
+        <tr>
+          <td>Aniversário:</td>
+          <td>17/04/2004</td>
+        </tr>
+      </table>
+    </div>
+    <div class="box">
+      <table>
+        <tr>
+          <td>Gênero:</td>
+          <td>Feminino</td>
+        </tr>
+      </table>
+    </div>
+    <div class="box">
+      <table>
+        <tr>
+          <td>Email:</td>
+          <td>usuario@exemplo.com</td>
+        </tr>
+      </table>
+    </div>
+    <div class="box">
+      <table>
+        <tr>
+          <td>Senha:</td>
+          <td>*********</td>
+
+
+          <td>*********</td>
+        </tr>
+      </table>
+    </div>
+    <div class="button-container">
+      <a href="../login/index.html" class="button">Login</a>
+      <a href="../Cadastro//index.html" class="button">Cadastro</a>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>

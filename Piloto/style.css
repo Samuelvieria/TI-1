@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://wallpaperaccess.com/full/8385556.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+header .menu {
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+header .menu li {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+header .menu a {
+  color: white;
+  padding: 8px 12px;
+  border-radius: 3px;
+  transition: 200ms;
+}
+
+header .menu .ativo,
+header .menu a:hover {
+  color: #444;
+  background-color: white;
+}
+
+.arrow {
+  position: absolute;
+  max-width: 30px;
+  max-height: auto;
+  top: 10px;
+  left: 15px;
+  cursor: pointer;
+}
+
+
+
+.infos {
+  padding: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+header {
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+  background-color: red;
+  color: white;
+}
+
+.infos ul {
+  color: white;
+}
+
+.infos ul {
+  list-style: none;
+  padding: 0;
+}
+
+.infos li {
+  display: block;
+}
+
+
+.pais {
+  position: absolute;
+  max-width: 80px;
+  z-index: 2;
+  max-height: auto;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  max-width: 100px;
+  height: auto;
+  padding: 50px
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+
+.infos h2 {
+  font-family: helvetica;
+  font-weight: bold;
+  padding: 10px 15px 1px 25px;
+  text-align: left;
+  color: white;
+}
+
+
+
+
+.infos p {
+  color: white;
+  flex: 1;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: arial;
+}
+
+.pilotos {
+  position: relative;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8%;
+  padding: 1px;
+  transition: transform 0.6s ease;
+  cursor: pointer;
+}
+
+.pilotos:hover {
+  transform: scale(1.05);
+}
